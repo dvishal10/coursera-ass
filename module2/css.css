@@ -1,0 +1,147 @@
+
+*{
+	box-sizing: border-box;
+}
+h1{
+	color:black;
+	text-align: center;
+}
+h2{
+	position: relative;
+	left:319px;
+	bottom:20px;
+}	
+section{
+	background: grey ;
+	margin-right: 20px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+/****For Desktop****/
+@media(min-width: 992px){
+	section{
+		background-color: grey;
+		float: left;
+		width: 480px;
+		height: auto;
+		border: 1px solid black;
+	}
+	h2.pink{
+
+		text-align: right;
+		background-color:pink;
+		width:160px;
+		height: 50px;
+		color:black;
+		border: 1px solid black; 
+	}
+	h2.red{
+		text-align: right;
+		background-color:red; 
+		width: 160px;
+		height: 50px;
+		color: white;
+		border: 1px solid black;
+	}
+	h2.yellow{
+		text-align: right;
+		background-color:yellow;
+		width:160px;
+		height:50px; 
+		color:black;
+		border: 1px solid black;
+	}
+}
+
+/*****For Tablet*****/
+@media(min-width: 768px) and (max-width: 991px){
+	section{
+		background-color: grey;
+		float: left;
+		width: 380px;
+		height: auto;
+		border: 1px solid black;
+	}
+	section.s1{
+		width: 795px;
+		height:auto;
+		border: 1px solid black;
+	}
+	h2{
+		position: relative;
+		bottom: 20px;
+		left: 179px;
+	}
+	h2.pink{ 
+		text-align: right;
+		background-color:pink;
+		width:200px;
+		height: 50px;
+		color:black;
+		border: 1px solid black; 
+	}
+	h2.red{
+		text-align: right;
+		background-color:red; 
+		width: 200px;
+		height: 50px;
+		color: white;
+		border: 1px solid black;
+	}
+	h2.yellow{
+		text-align: right;
+		background-color:yellow;
+		width:200px;
+		height:60px; 
+		color:black;
+		border: 1px solid black;
+		left: 594px;
+	}
+}	
+/******For Mobile******/
+@media(max-width: 767px){
+		section{
+		background-color: grey;	
+		float: left;
+		width: 400px;
+		height: auto;
+		border: 1px solid black;
+	}
+	section.s1{
+		width: 400px;
+		height:auto;
+		border: 1px solid black;
+	}
+	h2{
+		position: relative;
+		bottom: 20px;
+		left: 199px;
+	}
+	h2.pink{ 
+		text-align: right;
+		background-color:pink;
+		width:200px;
+		height: 50px;
+		color:black;
+		border: 1px solid black; 
+	}
+	h2.red{
+		text-align: right;
+		background-color:red; 
+		width: 200px;
+		height: 50px;
+		color: white;
+		border: 1px solid black;
+	}
+	h2.yellow{
+		text-align: right;
+		background-color:yellow;
+		width:200px;
+		height:50px; 
+		color:black;
+		border: 1px solid black;
+		left: 199px;
+	}
+	
+}
