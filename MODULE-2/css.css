@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+}
+
+section{
+  background-color: grey; 
+  margin: 10px;
+  border: 1px solid black;
+  float: left;
+  width:300px;
+  height:auto;
+}
+
+p{
+  font-style: italic;
+  font-weight: bold;
+  padding: 15px; 
+}
+
+div{
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  background-color: pink;
+  width:100px;
+  height: 50px; 
+  padding : 15px 15px 15px 15px;
+  position: relative;
+  left:199px;
+  border:1px solid black;
+}
+div.noodle{
+  background-color: yellow ;
+}
+div.pasta{
+  background-color: orange;
+}
+
+
+/*****TABLET******/
+@media(min-width: 768px) and (max-width: 991px){
+  section{
+    width: 450px;
+    float: left;
+  }
+  section.s1{
+    width: 920px;
+  }
+  div{
+    left:349px;
+  }
+  div.noodle{
+    background-color: yellow;
+  }
+  div.pasta{
+    background-color: orange;
+    left:818px ;
+  }
+}
+
+/*****mobile*****/
+@media (min-width: 320px) and (max-width: 767px){
+  section{
+    float: both;
+    width: 400px;
+    height: auto;
+  }
+  section.s1{
+    width: 400px;
+  }
+}
